@@ -21,6 +21,10 @@ module.exports = bundleAnalyzer({
             value:
               'frame-ancestors https://*.builder.io https://builder.io http://localhost:1234',
           },
+          {
+            key: 'Cache-Control',
+            value: 'no-store',
+          },
         ],
       },
     ]
